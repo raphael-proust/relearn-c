@@ -10,4 +10,7 @@ all:V: $TARGETS
 	cc $stem.o -o $stem.out
 
 clean:V:
-	rm *.o $TARGETS
+	rm -f *.o
+
+purge:V: clean
+	rm -f $TARGETS
