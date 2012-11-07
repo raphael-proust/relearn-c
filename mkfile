@@ -4,7 +4,7 @@ TARGETS= \
 	wrong.out \
 	right.out \
 	structure.out \
-	types.out
+	basetypes.out
 
 all:V: $TARGETS
 
