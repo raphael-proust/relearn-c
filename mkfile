@@ -4,7 +4,8 @@ TARGETS= \
 	wrong.out \
 	right.out \
 	structure.out \
-	basetypes.out
+	basetypes.out \
+	simplemath.out
 
 all:V: $TARGETS
 
