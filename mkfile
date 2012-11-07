@@ -4,6 +4,8 @@ TARGETS= \
 
 all:V: $TARGETS
 
+CCFLAGS="-Wall"
+
 %.o: %.c
 	cc $CCFLAGS -c $stem.c
 
