@@ -1,5 +1,6 @@
 TARGETS= \
-	helloworld.out
+	helloworld.out \
+	family.out
 
 all:V: $TARGETS
 
