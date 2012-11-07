@@ -2,7 +2,8 @@ TARGETS= \
 	helloworld.out \
 	family.out \
 	wrong.out \
-	right.out
+	right.out \
+	structure.out
 
 all:V: $TARGETS
 
