@@ -1,10 +1,12 @@
 TARGETS= \
 	helloworld.out \
-	family.out
+	family.out \
+	wrong.out \
+	right.out
 
 all:V: $TARGETS
 
-CCFLAGS="-Wall"
+CCFLAGS="-Wall -g"
 
 %.o: %.c
 	cc $CCFLAGS -c $stem.c
