@@ -3,7 +3,8 @@ TARGETS= \
 	family.out \
 	wrong.out \
 	right.out \
-	structure.out
+	structure.out \
+	types.out
 
 all:V: $TARGETS
 
