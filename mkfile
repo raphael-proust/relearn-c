@@ -3,6 +3,7 @@ TARGETS=\
 	basetypes.out\
 	family.out\
 	functions.out\
+	funl33t.out\
 	helloworld.out\
 	l33t.out\
 	multidimarrays.out\
