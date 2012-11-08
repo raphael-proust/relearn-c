@@ -1,26 +1,27 @@
-TARGETS= \
-	helloworld.out \
-	family.out \
-	wrong.out \
-	right.out \
-	structure.out \
-	basetypes.out \
-	simplemath.out \
-	simpleargv.out \
-	sizes.out \
-	arraysassign.out \
-	nastyecho.out \
-	multidimarrays.out
+TARGETS=\
+	arraysassign.out\
+	basetypes.out\
+	newlineecho.out\
+	family.out\
+	helloworld.out\
+	multidimarrays.out\
+	nastyecho.out\
+	right.out\
+	simpleargv.out\
+	simplemath.out\
+	sizes.out\
+	structure.out\
+	wrong.out
 
 all:V: $TARGETS
 
 CCFLAGS="-Wall -g"
 
 %.o: %.c
-	cc $CCFLAGS -c $stem.c
+	cc $CCFLAGS -c $prereq
 
 %.out: %.o
-	cc $stem.o -o $stem.out
+	cc $prereq -o $target
 
 clean:V:
 	rm -f *.o
