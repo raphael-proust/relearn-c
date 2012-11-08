@@ -9,6 +9,7 @@ TARGETS=\
 	multidimarrays.out\
 	nastyecho.out\
 	newlineecho.out\
+	pointers.out\
 	right.out\
 	simpleargv.out\
 	simplemath.out\
