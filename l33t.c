@@ -9,9 +9,10 @@ main(int argc, char *argv[]) {
 	}
 
 	int i=0;
+	char c;
 
-	for(i=0; argv[1][i] != '\0'; i++){
-		switch(argv[1][i]) {
+	for(i=0, c=argv[1][i]; c != '\0'; i++, c=argv[1][i]){
+		switch(c) {
 			case 'a':
 			case 'A':
 				putchar('4');
@@ -96,7 +97,7 @@ main(int argc, char *argv[]) {
 				putchar('2');
 				break;
 			default:
-				putchar(argv[1][i]);
+				putchar(c);
 		}
 	}
 
