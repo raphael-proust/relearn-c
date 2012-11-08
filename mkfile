@@ -2,6 +2,7 @@ TARGETS=\
 	arraysassign.out\
 	basetypes.out\
 	family.out\
+	functions.out\
 	helloworld.out\
 	l33t.out\
 	multidimarrays.out\
