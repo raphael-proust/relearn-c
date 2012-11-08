@@ -9,7 +9,8 @@ TARGETS= \
 	simpleargv.out \
 	sizes.out \
 	arraysassign.out \
-	nastyecho.out
+	nastyecho.out \
+	multidimarrays.out
 
 all:V: $TARGETS
 
