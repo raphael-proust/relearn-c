@@ -5,7 +5,8 @@ TARGETS= \
 	right.out \
 	structure.out \
 	basetypes.out \
-	simplemath.out
+	simplemath.out \
+	simpleargv.out
 
 all:V: $TARGETS
 
