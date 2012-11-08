@@ -7,7 +7,8 @@ TARGETS= \
 	basetypes.out \
 	simplemath.out \
 	simpleargv.out \
-	sizes.out
+	sizes.out \
+	arraysassign.out
 
 all:V: $TARGETS
 
