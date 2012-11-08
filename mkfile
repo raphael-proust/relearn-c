@@ -1,11 +1,12 @@
 TARGETS=\
 	arraysassign.out\
 	basetypes.out\
-	newlineecho.out\
 	family.out\
 	helloworld.out\
+	l33t.out\
 	multidimarrays.out\
 	nastyecho.out\
+	newlineecho.out\
 	right.out\
 	simpleargv.out\
 	simplemath.out\
