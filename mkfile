@@ -8,7 +8,8 @@ TARGETS= \
 	simplemath.out \
 	simpleargv.out \
 	sizes.out \
-	arraysassign.out
+	arraysassign.out \
+	nastyecho.out
 
 all:V: $TARGETS
 
